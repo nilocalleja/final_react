@@ -1,0 +1,19 @@
+form{
+    box-shadow: 5px 5px 15px ;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 150px;
+    margin-left: 650px; 
+    font-size: 40px;
+    font-weight: 600;
+    
+    button {
+        width: 150px;
+        font-size: 20px;
+        border: 1px solid black; 
+    }
+}

@@ -1,0 +1,50 @@
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-top: 120px;
+    .gallery__cards{
+        
+        width: 500px;
+        height: 540px;
+        margin: 40px;
+        max-height: fit-content;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+        border: 1px solid black;    
+        border-radius: 20px;
+        align-items: center;
+        h3:hover{
+            color:rgb(213, 213, 81);
+        }
+        a {
+            color: black; 
+        
+        }
+        p{
+            color: black; 
+            z-index: 1000;
+            font-size: 25px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        img:hover{
+            animation: move 2s infinite;
+            
+            
+        }
+        @keyframes move {
+            0% {
+                transform: translateX(0);
+            }
+            50% {
+                transform: translateY(50px);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+    }
+
+}

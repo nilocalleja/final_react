@@ -1,0 +1,23 @@
+nav{
+    background-image: url(https://img1.wallspic.com/previews/2/9/9/4/1/114992/114992-camuflaje-camuflaje_militar-diseno-soldado-ejercito-x750.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    ul{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    font-size: 30px;
+    li{
+        margin-top: 30px;
+        a{
+            color: white;
+            font-weight: bold;
+        }
+    }
+}
+}

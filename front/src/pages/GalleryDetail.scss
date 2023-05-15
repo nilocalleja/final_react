@@ -1,0 +1,38 @@
+.galleryDetail{ 
+    width: 500px;
+    height: 600px;
+    margin-top: 190px;
+    margin-left: 670px;
+    max-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    align-items: center;
+
+    h3{
+        color: black;
+        
+    }
+    p{
+        color: black; 
+        font-size: 25px;
+    }
+    img:hover{
+        animation: move 2s infinite;
+        
+        
+    }
+    @keyframes move {
+        0% {
+            transform: translateX(0);
+        }
+        50% {
+            transform: translateY(50px);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+}

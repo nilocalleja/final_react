@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+     list-style-type: none;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+body{
+   
+    background-color: #355e00;
+    background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+
+}
